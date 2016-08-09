@@ -1,0 +1,34 @@
+@keyframes disco{
+  0% {background:blue;}
+  10% {background:cyan;}
+  20% {background:green;}
+  30% {background:yellow;}
+  40% {background:orange;}
+  50% {background:red;}
+  60% {background:purple;}
+  70% {background:blue;}
+  80% {background:black;}
+  90% {background:white;}
+  100% {background:blue;}
+}
+
+h1 {
+  font-size: 90px
+}
+img {
+  border :5px solid blue;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+body:hover {
+  animation-name:disco;
+  animation-duration:1s;
+  animation-iteration-count: infinite;
+  color:black;
+}
+
+span{
+  text-align: center;
+  margin-top:30%;
+}
